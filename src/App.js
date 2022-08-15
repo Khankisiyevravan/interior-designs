@@ -3,7 +3,7 @@ import './App.css';
 // import { Routes , Route, resolvePath } from 'react-router-dom';
 // import { useLocation } from 'react-router-dom';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import NotFound from './pages/NotFound';
+// import NotFound from './pages/NotFound';
 import Homepages from './pages/Navbar pages/Homepages';
 import Catalog from './pages/Navbar pages/DesignIdeas';
 import Blog from './pages/Navbar pages/Blog';
