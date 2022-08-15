@@ -50,7 +50,7 @@ function App() {
         <Route path='/blog' element={<Blog />} />
         <Route path='/before_after' element={<BeforeAfter />} />
         <Route path='/packets' element={<Packets />} />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route path='*' element={<NotFound />} /> */}
         <Route path='/login' element={<Login />} />
         <Route path='/design_ideas/bedroom' element={<Bedroom />} />
         <Route path='/design_ideas/livingroom' element={<Livingroom />} />
