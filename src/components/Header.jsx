@@ -21,7 +21,7 @@ function Header() {
                 </div>
                 <ul className='ul'>
                     <li>
-                        <NavLink to='/'>
+                        <NavLink to='/interior-designs'>
                             Baş səhifə
                         </NavLink>
                     </li>
