@@ -15,7 +15,7 @@ function Header() {
         <div className="header">
             <header>
                 <div>
-                    <NavLink to='/'>
+                    <NavLink to='/interior-designs'>
                         <img src="https://image.freepik.com/free-vector/minimalist-furniture-logo-background_23-2148460878.jpg" alt="" />
                     </NavLink>
                 </div>
