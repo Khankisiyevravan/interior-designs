@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/interior-designs/static/css/main.1dc1650f.css",
-    "main.js": "/interior-designs/static/js/main.790d66e8.js",
+    "main.js": "/interior-designs/static/js/main.8840ca6c.js",
     "static/media/kitchenFoto.jpg": "/interior-designs/static/media/kitchenFoto.2728ae56e43295f74a09.jpg",
     "static/media/how-it-works-44.jpg": "/interior-designs/static/media/how-it-works-44.f4cd8c607f7fff059f66.jpg",
     "static/media/hm-subscribe.jpg": "/interior-designs/static/media/hm-subscribe.5be395422c5b08fa0226.jpg",
@@ -12,10 +12,10 @@
     "static/media/DesignEditRepeat.jpg": "/interior-designs/static/media/DesignEditRepeat.02a95961319d0198d36f.jpg",
     "index.html": "/interior-designs/index.html",
     "main.1dc1650f.css.map": "/interior-designs/static/css/main.1dc1650f.css.map",
-    "main.790d66e8.js.map": "/interior-designs/static/js/main.790d66e8.js.map"
+    "main.8840ca6c.js.map": "/interior-designs/static/js/main.8840ca6c.js.map"
   },
   "entrypoints": [
     "static/css/main.1dc1650f.css",
-    "static/js/main.790d66e8.js"
+    "static/js/main.8840ca6c.js"
   ]
 }
