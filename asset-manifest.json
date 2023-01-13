@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/interior-designs/static/css/main.1dc1650f.css",
-    "main.js": "/interior-designs/static/js/main.267e41cd.js",
-    "static/media/home.jpg": "/interior-designs/static/media/home.c6ad2069950b18dc6f1a.jpg",
-    "static/media/kitchenFoto.jpg": "/interior-designs/static/media/kitchenFoto.2728ae56e43295f74a09.jpg",
-    "static/media/home2.jpg": "/interior-designs/static/media/home2.4a586cd70d631aa7922b.jpg",
+    "main.css": "/interior-designs/static/css/main.d94b61ea.css",
+    "main.js": "/interior-designs/static/js/main.69a2d936.js",
+    "static/media/welcome-interior-bg.png": "/interior-designs/static/media/welcome-interior-bg.3e46bc10028f1fa86afb.png",
     "static/media/how-it-works-44.jpg": "/interior-designs/static/media/how-it-works-44.f4cd8c607f7fff059f66.jpg",
-    "static/media/hm-subscribe.jpg": "/interior-designs/static/media/hm-subscribe.5be395422c5b08fa0226.jpg",
     "static/media/stylequiz.jpg": "/interior-designs/static/media/stylequiz.6a0a73a013ff46fd8591.jpg",
     "static/media/how-it-works-33.jpg": "/interior-designs/static/media/how-it-works-33.a270098b4a41f849a30d.jpg",
     "static/media/how-it-works-22.jpg": "/interior-designs/static/media/how-it-works-22.59a3a1be9bfe086e9fb8.jpg",
     "static/media/how-it-works-11.jpg": "/interior-designs/static/media/how-it-works-11.657b1b629401efb6d01e.jpg",
     "static/media/DesignEditRepeat.jpg": "/interior-designs/static/media/DesignEditRepeat.02a95961319d0198d36f.jpg",
     "index.html": "/interior-designs/index.html",
-    "main.1dc1650f.css.map": "/interior-designs/static/css/main.1dc1650f.css.map",
-    "main.267e41cd.js.map": "/interior-designs/static/js/main.267e41cd.js.map"
+    "main.d94b61ea.css.map": "/interior-designs/static/css/main.d94b61ea.css.map",
+    "main.69a2d936.js.map": "/interior-designs/static/js/main.69a2d936.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dc1650f.css",
-    "static/js/main.267e41cd.js"
+    "static/css/main.d94b61ea.css",
+    "static/js/main.69a2d936.js"
   ]
 }
