@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
 function Packets() {
-    return (
-        <>
-            <p>Packets</p>
-        </>
-    )
+  return (
+    <>
+      <div className="sec1 packets">
+        <p>Packets</p>
+        <img src="./imgs/inoterior-logo-main.svg" alt="" />
+      </div>
+    </>
+  );
 }
 
-export default Packets
+export default Packets;

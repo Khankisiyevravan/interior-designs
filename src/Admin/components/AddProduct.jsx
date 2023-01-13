@@ -11,6 +11,7 @@ function AddProduct() {
     overview: "",
     type: "1",
     style: "1",
+    upload:"",
     item: [],
   })
   // const [furniture, setFurniture]
@@ -63,6 +64,14 @@ function AddProduct() {
   const handleInput = (e) => {
     setProducts({ ...products, [e.target.name]: e.target.value });
   };
+  const handleUpload = (e) => {
+    let reader = new FileReader();
+    reader.addEventListener("load", () => {
+      console.log(reader.result);
+      setProducts({ ...products, [e.target.name]: reader.result });
+    });
+    reader.readAsDataURL(e.target.files[0]);
+  };
   const inputChecked = (e) => {
     if (e.target.checked) {
       // products
@@ -78,6 +87,7 @@ function AddProduct() {
     console.log(products);
     fetch(" http://localhost:7732/furniture", {
       method: "POST",
+      
       headers: {
         "Content-Type": "application/json",
       },
@@ -123,6 +133,17 @@ function AddProduct() {
             id='image'
             type='text'
             name='image'
+          />
+        </label>
+        <label>
+          <p>
+            Şəkil linki secim:
+          </p>
+          <input
+            onChange={handleUpload}
+            id='image'
+            type='file'
+            name='upload'
           />
         </label>
         <br />
@@ -216,7 +237,7 @@ function AddProduct() {
                     <td>{item.color}</td>
                     <td>{item.country}</td>
                     <td>
-                      <img src={item.itemImage} alt="" />
+                      <img src={item.itemUpload} alt="" />
                     </td>
                   </tr>
                 ))

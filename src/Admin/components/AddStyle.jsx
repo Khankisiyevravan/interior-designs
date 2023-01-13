@@ -21,7 +21,7 @@ function AddStyle() {
         <>
             <NavBar />
             <div className='navss'>
-                <div className="inputs">
+                {/* <div className="inputs"> */}
                     <label>
                         Model əlavə edin :
                         <input
@@ -32,7 +32,7 @@ function AddStyle() {
                             placeholder='Çeşid...'
                         />
                     </label>
-                </div>
+                {/* </div> */}
                 <button
                     className='btn1'
                     onClick={submitButton}
