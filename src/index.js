@@ -16,5 +16,5 @@ root.render(
     </Provider>
   </BrowserRouter>
 );
-
+// "homepage": "http://localhost:3000/",
 // "homepage": "http://Khankisiyevravan.githib.io/interior-designs",
